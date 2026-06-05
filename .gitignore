@@ -2,3 +2,5 @@
 "*.pyc" 
 "*.db" 
 "football_manager.db" 
+"*.db" 
+"__pycache__/" 
