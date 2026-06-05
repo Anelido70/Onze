@@ -137,7 +137,11 @@ python gui_main.py
 | ![](screenshots/temporada.png) | ![](screenshots/tactico.png) |
 
 👤 Autor
+
 Víctor Fernández García
+
 📚 Estudiante de 1º DAW (Desarrollo de Aplicaciones Web)
+
 🔗 GitHub: Anelido70
+
 💼 LinkedIn: www.linkedin.com/in/víctor-fernández-24b5b9253
