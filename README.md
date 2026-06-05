@@ -1,6 +1,14 @@
 # ⚽ Onze - Simulador de Fútbol Manager
 
-![Python](https://img.shields.io/badge/Python-3.14-blue?logo=python)
+<p align="center">
+  <img src="capturas/partido.png" width="900">
+</p>
+
+<p align="center">
+  <strong>Simulador de gestión futbolística desarrollado en Python, Tkinter y SQLite.</strong>
+</p>
+
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
 ![SQLite](https://img.shields.io/badge/SQLite-3-lightgrey?logo=sqlite)
 ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green?logo=python)
 ![Estado](https://img.shields.io/badge/Estado-Completo-success)
@@ -64,54 +72,73 @@
 
 ## 📁 Estructura del Proyecto
 
+```text
 onze/
+├── capturas/
+│   ├── menu.png
+│   ├── partido.png
+│   ├── resultado.png
+│   ├── clasificacion.png
+│   ├── temporada.png
+│   └── tactico.png
 ├── database/
-│ ├── init_database.py # Creación de la BD
-│ └── updates/
-│ └── run_all_updates.py # Actualizaciones de la BD
+│   ├── init_database.py
+│   └── updates/
+│       └── run_all_updates.py
 ├── simulation/
-│ ├── match_simulator.py # Motor de simulación de partidos
-│ ├── live_match.py # Simulación en vivo minuto a minuto
-│ ├── league_simulator.py # Simulador de liga
-│ ├── season_manager.py # Gestor de temporadas
-│ └── tactics.py # Sistema táctico
-├── gui_main.py # Interfaz gráfica principal
-├── utils.py # Funciones auxiliares
-├── team_colors.py # Colores y estilos de equipos
-├── main.py # Menú de consola
-├── clean_db.py # Limpieza de base de datos
+│   ├── match_simulator.py
+│   ├── live_match.py
+│   ├── league_simulator.py
+│   ├── season_manager.py
+│   └── tactics.py
+├── gui_main.py
+├── utils.py
+├── team_colors.py
+├── main.py
+├── clean_db.py
 └── README.md
-
-
----
+```
 
 ## 🚀 Instalación y Ejecución
 
 ### Requisitos
+
 - Python 3.8 o superior
 - No requiere instalación de paquetes adicionales (Tkinter y SQLite vienen incluidos)
 
-### Pasos
+### 1. Clona el repositorio
 
-1. **Clona el repositorio**
 ```bash
 git clone https://github.com/Anelido70/onze.git
 cd onze
+```
 
-2. **Inicializa la base de datos**
+### 2. Inicializa la base de datos
+
+```bash
 python database/init_database.py
 python database/updates/run_all_updates.py
+```
 
-3. **Ejecuta el juego**
+### 3. Ejecuta el juego
+
+```bash
 python gui_main.py
+```
 
-📸 Capturas de Pantalla
-Menú Principal	Partido en Vivo
-https://Screenshots/menu.png	https://Screenshots/partido.png
-Resultado	Clasificación
-https://Screenshots/resultado.png	https://Screenshots/clasificacion.png
-Modo Temporada	Visor Táctico
-https://Screenshots/temporada.png	https://Screenshots/tactico.png
+## 📸 Capturas de Pantalla
+
+| Menú Principal | Partido en Vivo |
+|----------------|----------------|
+| ![](screenshots/menu.png) | ![](screenshots/partido.png) |
+
+| Resultado | Clasificación |
+|------------|---------------|
+| ![](screenshots/resultado.png) | ![](screenshots/clasificacion.png) |
+
+| Temporada | Visor Táctico |
+|-----------|---------------|
+| ![](screenshots/temporada.png) | ![](screenshots/tactico.png) |
 
 👤 Autor
 Víctor Fernández García
