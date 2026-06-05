@@ -1,7 +1,7 @@
 # ⚽ Onze - Simulador de Fútbol Manager
 
 <p align="center">
-  <img src="capturas/partido.png" width="900">
+  <img src="screenshots/partido.png" width="900">
 </p>
 
 <p align="center">
@@ -14,10 +14,6 @@
 ![Estado](https://img.shields.io/badge/Estado-Completo-success)
 
 **Onze** es un simulador de gestión de fútbol desarrollado en Python con interfaz gráfica Tkinter. Permite simular partidos en tiempo real, gestionar una liga completa con 6 equipos, visualizar estadísticas detalladas y disfrutar de una experiencia inmersiva minuto a minuto.
-
-<p align="center">
-  <img src="screenshots/menu_principal.png" alt="Menú Principal" width="400">
-</p>
 
 ---
 
