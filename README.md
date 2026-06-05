@@ -1,4 +1,4 @@
-# ⚽ Onze - Simulador de Fútbol Manager
+# ⚽ Onze - Simulador de Manager de Fútbol 
 
 <p align="center">
   <img src="screenshots/partido.png" width="900">
